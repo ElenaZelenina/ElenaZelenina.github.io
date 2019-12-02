@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang = "en">
+<head><title>TableOfContent</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel = "stylesheet" type = "text/css" href = "styles/fizzbuzz0.css">
+<link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope' rel='stylesheet'>
+</head>
+<body>
+<h1>Lunar Creations</h1>
+<nav id="navigation">
+<a href="http://students.cpcc.edu/~avang006/www/web_115/toc.html">Table Of Content</a> |
+  <a href="http://students.cpcc.edu/~avang006/www/web_115/introduction.html">About Me</a> |
+  <a href="http://students.cpcc.edu/~avang006/www/">Student Space</a> |
+</nav>
+<h2 id="greeting">Welcome to Lunar Creations,</h2>
+<div id="box1">  
+<form>
+    <p>First Name: <input type="text" size=65 id="fName" placeholder="first name" required> </p>       
+	<p>Midde Name: <input type="text" size=65 id="mName" placeholder="middle name" required> </p>
+    <p>Last Name: <input type="text" size=65 id="lName" placeholder="last name" required> </p>
+<input type="button" value="Submit" onclick="formSubmit()"></form>
+<p id="jsLoop"></p>
+<script>
+function formSubmit() {
+	var firstName = document.getElementById('fName').value;
+	var middleName = document.getElementById('mName').value;
+	var lastName = document.getElementById('lName').value;
+	var newGreeting = document.getElementById('greeting').value;
+	document.getElementById('greeting').innerHTML = (" Welcome to Lunar Creations, " + firstName + " " + middleName + " " + lastName + ".");
+	var start = prompt(" How high do you want to count " + firstName + " ? ");
+  var text = "";
+  var i;
+  for (i = 1; i <=start; i++) {
+	if ( i % 2 == 0) {
+                    document.getElementById('jsLoop').innerHTML = (text +=  i + " start creating " + " -the number is Even" + "<br>");
+                }else{
+                    document.getElementById('jsLoop').innerHTML = (text +=  i + " start creating " + " -the number is Odd" + "<br>");
+                }
+  document.getElementById("jsLoop").innerHTML = text;
+}
+}
+</script> </div>
+<footer> 
+	<div class="validation">
+	<a href="https://jsfiddle.net/user/avang006/fiddles/">GitHub</a> | <a href="https://avang006.github.io/WEB115/">GitHub Pages</a> | <a href="https://www.linkedin.com/in/alyssa-vang-3a8723191/">LinkedIn</a> | <a href="https://www.codecademy.com/profiles/avang006">CodeAcademy</a> | <a href="https://www.khanacademy.org/profile/kaid_1055357654483517994887967/">Khan Academy</a> | <a href="https://jsfiddle.net/user/avang006/fiddles/">JsFiddle</a> | <a href="https://courses.edx.org/dashboard">EdX</a> | <a href="https://www.freecodecamp.org/avang006">FreeCodeCamp</a> 
+ <br><a href="http://validator.w3.org/check?uri=referer">
+	<img src="images/valid_html5.gif"  alt="Valid HTML 5" 
+		height="31" width="88" style="border:0px;" /></a>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a><br>Designed by &copy;Alyssa Vang</div>
+    </footer>	
+</body>
+</html>

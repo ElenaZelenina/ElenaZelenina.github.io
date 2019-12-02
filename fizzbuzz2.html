@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="web115, project, html, css" />
+    <title>Pokepages: Fizz Buzz 2</title>
+    <link href="styles/brand.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Overlock&display=swap" rel="stylesheet">
+    <script src="scripts/fizzbuzz2.js"></script>
+</head>
+
+<body>
+    <div data-include="include/header.inc.html"></div>
+    <main>
+        <h2>Fizz Buzz 2</h2>
+        <h3 id="greeting">Welcome to the Pokepages!</h3>
+
+        <form action="#" id="fizzbuzzform">
+            <fieldset>
+                <div>
+                    <label for="first_name">First Name</label>
+                    <input type="text" id="first_name" placeholder="Enter your first name" size="50" />
+                </div>
+                <div>
+                    <label for="middle_initial">Middle Initial</label>
+                    <input type="text" id="middle_initial" size="20" maxlength="1" />
+                </div>
+
+                <div>
+                    <label for="last_name">Last Name</label>
+                    <input type="text" id="last_name" placeholder="Enter your last name" size="50" />
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+
+        <ol id="fizz_words"></ol>
+
+    </main>
+    <div data-include="include/footer.inc.html"></div>
+    <script src="scripts/HTMLInclude.js"></script>
+</body>
+
+</html>

@@ -1,52 +1,80 @@
 body 
 {
-  background: rgb(228, 247, 234);
-  color: #153f23;
+  background: #cee4e6;
+  color: #337b81;
   font-family: Tahoma, sans-serif;
 }
 
 main 
 {
-  margin: 8px 30px;
+  margin: 8px 300px;
 }
 
 h1, h2, h3, h4, h5 
 {
   font-family: Verdana, sans-serif;
   text-align: center;
-  color: #568868;
+  color: #337b81;
+}
+
+a
+{
+  color: #337b81;
+  margin: 0;
+}
+
+a:hover
+{
+  color: #05444b;
 }
 
 header, footer 
 {
   text-align: center;
-  border: dashed #A0C3CC 2px;
   padding: 5px;
 }
 
-dt 
-{
-  font-weight: bold;
-  color: #568868;
-}
-
-dd 
-{
-  margin: 16px;
-}
-
-dd ul 
-{
-  padding-left: 16px;
-}
-
-figcaption, footer, h6 
+figcaption, h6 
 {
   font-style: italic;
   font-size: 80%;
+  text-align: center;
 }
 
 #profilepicture 
 {
   text-align: center;
+}
+
+figure
+{
+  text-align: center;
+}
+
+footer 
+{
+  clear: both;
+}
+
+.button 
+{
+  background-color: #337b81;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 2px;
+  width: 90px;
+}
+
+.button a
+{
+  color: white;
+  text-decoration: none;
+}
+
+.button a:hover
+{
+  color: #05444b;
 }

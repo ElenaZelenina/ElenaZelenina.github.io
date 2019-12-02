@@ -1,0 +1,140 @@
+body 
+{
+  background: #62A8AC;
+  color: #B4FADB;
+  font-family: 'Overlock', cursive;
+  font-size: 1.5em;
+}
+
+main 
+{
+  margin: 8px auto;
+  width: 820px;
+}
+
+h1
+{
+  font-family: 'Cabin Sketch', cursive;
+  color: #E2FE9B;
+  font-size: 4em;
+  font-weight: normal;
+  margin: 30px 0 10px 0;
+}
+
+h2
+{
+  font-family: 'Luckiest Guy', cursive;
+  color: #E2FE9B;
+  font-weight: normal;
+}
+
+h3, h4, h5 
+{
+  font-family: 'Luckiest Guy', cursive;
+  color: #B4FADB;
+  font-weight: normal;
+}
+
+h6 
+{
+  font-style: italic;
+  text-align: center;
+  font-size: 1em;
+  margin: 10px 0 10px 0;
+}
+
+a
+{
+  color: #B4FADB;
+  margin: 0;
+}
+
+a:hover
+{
+  color: #57467B;
+}
+
+header, footer 
+{
+  text-align: center;
+}
+
+footer 
+{
+  clear: both;
+  margin: 24px;
+}
+
+.button 
+{
+  background-color: #B4FADB;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 2px;
+  width: 100px;
+}
+
+.button a
+{
+  color: #62A8AC;
+  text-decoration: none;
+}
+
+.button a:hover
+{
+  color: #57467B;
+}
+
+div.image
+{
+  text-align: center;
+}
+
+.font-def {
+  margin-left: 20px;
+}
+
+.luckestguy span
+{
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.cabinsketch span
+{
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.overlock span
+{
+  font-family: 'Overlock', cursive;
+}
+
+fieldset label {
+  display: inline-block;
+  width: 30%;
+}
+
+#fizz_words {
+  visibility: hidden;
+}
+
+#fizz_count {
+  display: none;
+}
+
+fieldset table {
+  width: 100%;
+}
+
+fieldset table td {
+  padding: 2px 6px;
+}
+fieldset table tr td:first-child {
+  width: 20%;
+}
+fieldset table td input {
+  width: 100%;
+}
